@@ -20,6 +20,7 @@ import slider6 from "./resources/images/6.png";
 import futureproject from "./resources/images/futureprojects.png";
 import habilidades from "./resources/videos/Cerebro.mp4";
 
+
 function App() {
   return (
     <div class="Portafolio">
