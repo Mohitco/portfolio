@@ -4,7 +4,6 @@ import './index.css';
 import Portafolio from './Portafolio';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
-import { Helmet } from 'react-helmet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

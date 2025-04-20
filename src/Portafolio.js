@@ -17,7 +17,6 @@ import slider3 from "./resources/images/3.png";
 import slider4 from "./resources/images/4.png";
 import slider5 from "./resources/images/5.png";
 import slider6 from "./resources/images/6.png";
-import futureproject from "./resources/images/futureprojects.png";
 import habilidades from "./resources/videos/Cerebro.mp4";
 
 
