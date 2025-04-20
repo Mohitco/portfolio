@@ -9,7 +9,6 @@ import grid1 from "./resources/images/grid1.png";
 import grid2 from "./resources/images/grid2.png";
 import grid3 from "./resources/videos/glob.mp4";
 import grid4 from "./resources/images/grid4.png";
-import skillsTitle from "./resources/images/digitalbrain.png";
 import proyecto1 from "./resources/images/proyecto1.png";
 import slider1 from "./resources/images/1.png";
 import slider2 from "./resources/images/2.png";
