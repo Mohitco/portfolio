@@ -728,8 +728,8 @@ cursor: pointer;
 
 /* FADEIN-RIGHT */
 .fadeInRight {
-  animation: fadeInAnimation both;
-  animation-timeline: view();
+  /* animation: fadeInAnimation both;
+  animation-timeline: view(); */
 }
 
 @keyframes fadeInAnimation {
