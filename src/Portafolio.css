@@ -687,8 +687,8 @@ cursor: pointer;
 
 /* Blur Effect Animation */
 .autoBlur {
-  animation: autoBlurAnimation linear both;
-  animation-timeline: view();
+  /* animation: autoBlurAnimation linear both;
+  animation-timeline: view(); */
 }
 
 @keyframes autoBlurAnimation {
