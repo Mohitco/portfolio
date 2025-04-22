@@ -728,8 +728,8 @@ cursor: pointer;
 
 /* FADEIN-RIGHT */
 .fadeInRight {
-  /* animation: fadeInAnimation both;
-  animation-timeline: view(); */
+        /* animation: fadeInAnimation both;
+        animation-timeline: view(); */
 }
 
 @keyframes fadeInAnimation {
@@ -953,7 +953,7 @@ cursor: pointer;
     top: -37px;
   }
   .skills-section {
-    top: -439px;
+    top: -245px;
   }
 
   .menu-icon {
