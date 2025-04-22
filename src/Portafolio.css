@@ -828,7 +828,7 @@ cursor: pointer;
 }
 
 /*responsive mobile*/
-
+ 
 @media screen and (max-width: 700px) {
   header {
     position: fixed;
@@ -864,7 +864,7 @@ cursor: pointer;
   }
 
   .scroll-down {
-    bottom: -64%;
+    bottom: -28%;
   }
 
   .hero-info h1 {
@@ -938,7 +938,7 @@ cursor: pointer;
   }
   .info-section {
     position: relative;
-    top: 364px;
+    top: 199px;
     width: 94%;
   }
 
@@ -953,6 +953,7 @@ cursor: pointer;
     top: -37px;
   }
   .skills-section {
+    top: -439px;
     top: -245px;
   }
 
