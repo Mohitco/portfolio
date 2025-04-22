@@ -864,7 +864,7 @@ cursor: pointer;
   }
 
   .scroll-down {
-    bottom: -28%;
+    bottom: -64%;
   }
 
   .hero-info h1 {
@@ -938,7 +938,7 @@ cursor: pointer;
   }
   .info-section {
     position: relative;
-    top: 199px;
+    top: 364px;
     width: 94%;
   }
 
@@ -963,13 +963,176 @@ cursor: pointer;
 }
 
 
-
-
-
-
 /* Inicio de nuevas ideas */
 
+/* Estilos base (Mobile First) */
 
+/* ======================== */
+/* Móviles muy pequeños     */
+/* (Ej: 320px - 360px)      */
+/* ======================== */
+@media (max-width: 360px) {
+  /* Puedes agregar ajustes más extremos si lo necesitas */
+}
+
+/* ======================== */
+/* Móviles normales         */
+/* (Ej: hasta 430px)        */
+/* ======================== */
+@media (max-width: 430px) {
+  header {
+    position: fixed;
+    height: 50px;
+  }
+
+  header ul,
+  header .box-icons {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  .blackhole-box video {
+    margin-top: -16%;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .autoBlur {
+    animation: none;
+  }
+
+  .hero-info {
+    bottom: 5%;
+    top: 526px;
+  }
+
+  .scroll-down {
+    bottom: -64%;
+  }
+
+  .hero-info h1 {
+    line-height: 50px;
+  }
+
+  .hero-vid-box {
+    height: 200px;
+    top: 5%;
+    right: 5%;
+  }
+
+  .card video {
+    width: 100%;
+  }
+
+  .card:nth-child(3) {
+    width: 193%;
+  }
+
+  .card p {
+    bottom: -2%;
+  }
+
+  .my-projects {
+    margin-bottom: 600px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    margin-left: 25%;
+    gap: 30px;
+    height: 60%;
+  }
+
+  .project-info h1 {
+    text-wrap: nowrap;
+  }
+
+  .project-info p {
+    position: relative;
+    max-width: none;
+    width: 150%;
+    left: -64px;
+    font-size: 13px;
+  }
+
+  .project-vidbox img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 20px;
+    transition: 0.5s;
+    left: -11%;
+    bottom: -18px;
+  }
+
+  .coder {
+    top: 66%;
+    left: 18%;
+  }
+
+  .designer {
+    top: 18%;
+    left: 18%;
+  }
+
+  .skills-box h1 {
+    margin-bottom: 0;
+    margin-top: 70px;
+  }
+
+  .slider {
+    bottom: 0;
+    top: 122%;
+  }
+
+  .slider img {
+    width: 60%;
+  }
+
+  .info-section {
+    position: relative;
+    top: 360px;
+    width: 94%;
+  }
+
+  .hero-vid-box video {
+    height: 418px;
+    position: relative;
+    left: 23px;
+    top: 50px;
+  }
+
+  .project-info button {
+    position: relative;
+    top: -37px;
+  }
+
+  .skills-section {
+    top: -245px;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+}
+.card h1 {
+  
+  bottom: 51%;
+  left: 6%;
+  font-size: 25px;
+  
+}
+.card img {
+  width: 64%;
+  height: 64%;
+  object-fit: cover;
+}
 
 
 /* fin de nuevas ideas */
