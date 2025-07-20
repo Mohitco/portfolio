@@ -3,16 +3,18 @@ import React from "react";
 const Footer = () => {
   return (
     <footer style={footerStyle}>
-      <h1>Copyright © 2025, Hecho por Bytezon | Referencia: MiladiCode</h1>
-    </footer>
+    <h1>©Copyright 2025, Made by <span className="gradient"> "Aadarsh Kumar Jha"</span>
+    </h1>
+  </footer>
+  
   );
 };
 
 const footerStyle = {
   display: "flex",
-  position: "relative", // ⚠️ Evita que el footer se superponga con el contenido
+  position: "relative", 
   bottom: 0,
-  width: "100%",
+  width: "100vw",
   alignItems: "center",
   justifyContent: "center",
   height: "40px",

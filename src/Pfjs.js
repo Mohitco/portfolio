@@ -1,4 +1,3 @@
-//sidebar elementa//
 const sidebar = document.querySelector('.sidebar');
 const menu = document.querySelector('.menu-icon');
 

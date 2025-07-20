@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   color: lightgray;
 }
@@ -174,7 +175,7 @@ header ul a {
   box-shadow: 0 0 5px #727fde86;
   cursor: pointer;
   transition: 0.3s;
-  text-decoration: none; /* Quita el subrayado */ 
+  text-decoration: none;  
 }
 
 .hero-info a:hover {
@@ -186,7 +187,6 @@ header ul a {
   box-shadow: 0 0 15px #727fde86;
 }
 
-/*animcion de gradient*/
 
 .gradient {
   background: linear-gradient(
@@ -215,11 +215,11 @@ header ul a {
 
 .hero-vid-box {
   position: absolute;
-  right: 0%;
+  right: 8%;
 }
 
 .hero-vid-box video {
-  height: 700px;
+  height: 500px;
   mix-blend-mode: lighten;
 }
 
@@ -236,6 +236,8 @@ header ul a {
     height: auto;
   }
 }
+
+
 
 .scroll-down {
   height: 50px;
@@ -256,7 +258,7 @@ header ul a {
   top: 20%;
   left: 50%;
   width: 10px;
-  height: 10px; /* Añadido para definir la altura */
+  height: 10px; 
   border: 2px solid lightgray;
   transform: translate(-50%, -100%) rotate(45deg);
   border-top: transparent;
@@ -288,7 +290,7 @@ header ul a {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  margin: 100px auto; /* Centrar horizontalmente */
+  margin: 100px auto; 
 }
 
 .section-title {
@@ -298,7 +300,7 @@ header ul a {
 
 .info-cards {
   display: grid;
-  grid-template-columns: auto auto auto; /* Columnas iguales */
+  grid-template-columns: auto auto auto;
   gap: 20px;
   width: 100%;
   height: 100%;
@@ -310,7 +312,7 @@ header ul a {
   align-items: flex-start;
   justify-content: center;
   position: relative;
-  width: auto; /* Ajustar al contenedor */
+  width: auto;
   height: 40vh;
   overflow: hidden;
   border: 1px solid gray;
@@ -326,7 +328,6 @@ header ul a {
 }
 .card h1 {
   position: absolute;
-  margin: 0;
   bottom: 40%;
   left: 5%;
   font-size: 25px;
@@ -336,7 +337,7 @@ header ul a {
 
 .card p {
   position: absolute;
-  bottom: 3%;
+  bottom: 0%;
   left: 5%;
   z-index: 1;
   max-width: 300px;
@@ -401,8 +402,6 @@ header ul a {
   bottom: 35%;
 }
 
-/*mis proyectos*/
-
 .my-projects {
   display: flex;
   flex-direction: column;
@@ -411,7 +410,7 @@ header ul a {
   position: relative;
   width: 80%;
   height: 100vh;
-  margin: 0 auto; /* Centrar horizontalmente */
+  margin: 0 auto; 
   margin-top: 200px;
   margin-bottom: 200px;
 }
@@ -500,12 +499,12 @@ header ul a {
   opacity: 0.7;
 }
 
-/*Habilidades */
 .skills-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-top: 450px;
   padding-bottom: 80px;
 }
 
@@ -518,8 +517,8 @@ header ul a {
   justify-content: center;
 }
 .skills-video {
-  width: 30%; /* Reduce el tamaño del video */
-  height: auto; /* Mantiene la proporción */
+  width: 30%; 
+  height: auto; 
   mix-blend-mode: lighten;
 }
 
@@ -544,7 +543,7 @@ header ul a {
 }
 
 .skills-box h1 {
-  font-size: 50px;
+  font-size: 40px;
   display: flex;
   align-items: center;
 }
@@ -552,8 +551,6 @@ header ul a {
 .skills-box p {
   line-height: 23px;
 }
-
-/*sliders*/
 
 .slider {
   position: absolute;
@@ -572,7 +569,7 @@ header ul a {
   width: 100%;
   min-width: calc(
     var(--width) * var(--quantity)
-  ); /* Asegura que el ancho sea el adecuado */
+  ); 
   position: relative;
 }
 
@@ -601,7 +598,6 @@ header ul a {
   }
 }
 
-/* Efecto al pasar el mouse */
 .slider:hover .item {
   animation-play-state: paused !important;
   filter: grayscale(1);
@@ -622,7 +618,7 @@ header ul a {
   top: 0;
   bottom: 70%;
   width: 0%;
-  background-color: rgba(0, 0, 0, 0.72); /* Equivalente a #000000b8 */
+  background-color: rgba(0, 0, 0, 0.72); 
   backdrop-filter: blur(10px);
   z-index: 999;
   box-shadow: 0 0 20px rgba(211, 211, 211, 0.411);
@@ -631,7 +627,7 @@ header ul a {
 }
 .close-icon {
   font-size: 50px;
-  color: lightgray; /* Se eliminó el carácter extraño */
+  color: lightgray; 
   padding-left: 10px;
   cursor: pointer;
 }
@@ -647,10 +643,10 @@ header ul a {
 
 .sidebar ul li a {
   text-decoration: none;
-  color: lightgray; /* Se eliminó el carácter extraño */
+  color: lightgray; 
   font-size: 30px;
   font-weight: 700;
-  text-shadow: 0 0 15px rgba(128, 128, 128, 0.256); /* Se eliminó el carácter extraño */
+  text-shadow: 0 0 15px rgba(128, 128, 128, 0.256); 
 }
 
 .sidebar .social-icons {
@@ -665,7 +661,7 @@ padding: 5px 5px;
 cursor: pointer;
 }
 
-/* Open Sidebar Animation */
+
 .sidebar.open-sidebar {
   animation: openSidebarAnimation 1.5s forwards;
 }
@@ -685,11 +681,7 @@ cursor: pointer;
 
 
 
-/* Blur Effect Animation */
-.autoBlur {
-  /* animation: autoBlurAnimation linear both;
-  animation-timeline: view(); */
-}
+
 
 @keyframes autoBlurAnimation {
   0% {
@@ -707,7 +699,7 @@ cursor: pointer;
   }
 }
 
-/* AUTO DISPLAY ANIMATION */
+
 .autoDisplay {
   animation: autoDisplayAnimation both;
   animation-timeline: view();
@@ -726,11 +718,9 @@ cursor: pointer;
   }
 }
 
-/* FADEIN-RIGHT */
-.fadeInRight {
-        /* animation: fadeInAnimation both;
-        animation-timeline: view(); */
-}
+
+
+
 
 @keyframes fadeInAnimation {
   0% {
@@ -749,7 +739,6 @@ cursor: pointer;
   }
 }
 
-/*responsive tablet*/
 
 @media screen and (max-width: 1000px) {
   .blackhole-box video {
@@ -771,7 +760,7 @@ cursor: pointer;
   }
 
   .hero-vid-box video {
-    height: 500px;
+    height: 300px;
   }
 
   .section-title {
@@ -789,6 +778,9 @@ cursor: pointer;
   .info-cards .card h1 {
     font-size: 20px;
   }
+  .info-cards .card p {
+   bottom: 0;
+  }
 
   .card:nth-child(3) h1 {
     bottom: 25%;
@@ -797,10 +789,6 @@ cursor: pointer;
   .card video {
     height: 65%;
     margin-top: 5%;
-  }
-
-  .my-projects {
-    margin-bottom: 300px;
   }
 
   .project-vidbox video {
@@ -824,6 +812,9 @@ cursor: pointer;
     text-wrap: wrap;
     max-width: 200px;
     min-width: 0;
+  }
+  .autoDisplay p {
+    display: none;
   }
 }
 
@@ -875,7 +866,12 @@ cursor: pointer;
     top: 5%;
     right: 5%;
   }
-
+.info-cards .card p{
+  display: none;
+}
+.info-cards .card h1{
+  top: 50%;
+}
   .card video {
     width: 100%;
   }
@@ -888,21 +884,25 @@ cursor: pointer;
   }
 
   .my-projects {
+    margin-top: 600px;
     margin-bottom: 600px;
   }
   .project-card {
+    margin-top: 120px;
     flex-direction: column;
     margin-left: 25%;
+    margin-bottom: 150px;
     gap: 30px;
   }
   .project-info h1 {
+    text-align: center;
     text-wrap: nowrap;
   }
   .project-info p {
     position: relative;
     max-width: none;
     width: 150%;
-    left: -64px;
+    left: -40px;
     font-size: 13px;
   }
   .project-vidbox img {
@@ -923,9 +923,11 @@ cursor: pointer;
     top: 18%;
     left: 18%;
   }
+  .skills-section{
+    margin-top: 1350px;
+  }
   .skills-box h1 {
-    margin-bottom: 0;
-    margin-top: 70px;
+    margin-top: 120px;
   }
 
   .slider {
@@ -938,7 +940,7 @@ cursor: pointer;
   }
   .info-section {
     position: relative;
-    top: 199px;
+    top: 500px;
     width: 94%;
   }
 
@@ -960,5 +962,6 @@ cursor: pointer;
   .menu-icon {
     display: inline;
   }
+
 
 }
